@@ -13,7 +13,17 @@ namespace DAL.Listados
 	public class clsListadoDepartamentos
 	{
 
-		private clsMiConexion miConexion = new clsMiConexion();
+		private clsMiConexion miConexion;
+
+		public clsListadoDepartamentos()
+		{
+			miConexion = new clsMiConexion();
+		}
+
+		public clsListadoDepartamentos(string server, string name, string pass, string user)
+		{
+			miConexion = new clsMiConexion(server, name, user, pass);
+		}
 
 
 		/// <summary>
@@ -37,8 +47,8 @@ namespace DAL.Listados
 				if (miLector.HasRows)
 				{
 					clsDepartamento departamento = new clsDepartamento();
-					departamento.Id = miLector.GetInt16(1);
-					departamento.Nombre = miLector.GetString(2);
+					departamento.Id = miLector.GetInt32(0);
+					departamento.Nombre = miLector.GetString(1);
 					lista.Add(departamento);
 				}
 			}

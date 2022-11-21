@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "61cI0o0ymDeRfR2J4hbw638hFwRrideuNM4hD8sGFmuAxHveAuD4TOfBiGxNk3w+tOLLXHNrs+NBmMBId7zCkg==",
+  "dgSpecHash": "/yr7PfYfO/wI0F2GU5/dmJ5cB+s/8hMu4Qfy83R4ohk3VBFXx30FI6Ikt+Uuea97IB3rYY3OdIJAkp0CuKfbBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caguilar\\Desktop\\Interfaces\\CRUD_Personas\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\carra\\Source\\Repos\\MeloAguilar\\CRUD_PersonasDEINT\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

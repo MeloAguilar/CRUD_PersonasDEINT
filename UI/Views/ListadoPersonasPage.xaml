@@ -8,12 +8,34 @@
     <ContentPage.BindingContext>
         <vm:clsVMListadoPersonas/>
     </ContentPage.BindingContext>
-    
-    <CollectionView BindingContext="{Binding Personas}" x:Name="coleccionPersonas">
-        <CollectionView.ItemTemplate>
-            <DataTemplate>
+
+    <VerticalStackLayout>
+
+        <ScrollView>
+            <CollectionView ItemsSource="{Binding Personas}" x:Name="coleccionPersonas">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            
+                            <SwipeView.BindingContext>
+                                <vm:clsVMListadoPersonas/>
+                            </SwipeView.BindingContext>
+                            
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                        
+                                    <SwipeItem 
+                                        Text="Delete"
+                                        IconImageSource="delete.png"
+                                        BackgroundColor="LightPink"
+                                        Command="{Binding Delete_Command}" />
+                        
+                                </SwipeItems>
+                </SwipeView.LeftItems>
+                <!-- Content -->
                 <Grid Padding="10">
                     <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
@@ -23,7 +45,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Image
-                        Grid.RowSpan="2"
+                        Grid.RowSpan="3"
                         Source="{Binding Imagen}"/>
                     <Label Grid.Column="1"
                        Text="{Binding NombreCompleto}"
@@ -33,10 +55,21 @@
                        Text="{Binding Telefono}"
                        FontAttributes="Italic"
                        VerticalOptions="End" />
-                    
+                    <Label 
+                        Text="{Binding NombreDepartamento}"
+                        Grid.Row="2"
+                        Grid.Column="1"/>
 
                 </Grid>
+                <!-- Content -->
+            </SwipeView>
+                        
+            
+ 
+                
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
+        </ScrollView>
+    </VerticalStackLayout>
 </ContentPage>

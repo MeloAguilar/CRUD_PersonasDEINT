@@ -8,4 +8,10 @@ public partial class ListadoPersonasPage : ContentPage
 
 		
 	}
+
+
+	private void SwipeItem_Invoked(object sender, EventArgs e)
+	{
+
+	}
 }

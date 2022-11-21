@@ -7,45 +7,39 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UI
-build_property.ProjectDir = C:\Users\caguilar\Desktop\Interfaces\CRUD_Personas\UI\
+build_property.ProjectDir = C:\Users\carra\Source\Repos\MeloAguilar\CRUD_PersonasDEINT\UI\
 
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/App.xaml]
+[C:/Users/carra/Source/Repos/MeloAguilar/CRUD_PersonasDEINT/UI/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/AppShell.xaml]
+[C:/Users/carra/Source/Repos/MeloAguilar/CRUD_PersonasDEINT/UI/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/Resources/Styles/Colors.xaml]
+[C:/Users/carra/Source/Repos/MeloAguilar/CRUD_PersonasDEINT/UI/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/Resources/Styles/Styles.xaml]
+[C:/Users/carra/Source/Repos/MeloAguilar/CRUD_PersonasDEINT/UI/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/Views/InicioPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = UI.Views.InicioPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\InicioPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\InicioPage.xaml
-
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/Views/ListadoDepartamentosPage.xaml]
+[C:/Users/carra/Source/Repos/MeloAguilar/CRUD_PersonasDEINT/UI/Views/ListadoDepartamentosPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Views.ListadoDepartamentosPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoDepartamentosPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListadoDepartamentosPage.xaml
 
-[C:/Users/caguilar/Desktop/Interfaces/CRUD_Personas/UI/Views/ListadoPersonasPage.xaml]
+[C:/Users/carra/Source/Repos/MeloAguilar/CRUD_PersonasDEINT/UI/Views/ListadoPersonasPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Views.ListadoPersonasPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoPersonasPage.xaml

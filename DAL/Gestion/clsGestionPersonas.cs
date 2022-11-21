@@ -13,6 +13,22 @@ namespace DAL.Gestion
 	{
 		private clsMiConexion miConexion;
 
+		public clsGestionPersonas()
+		{
+			miConexion = new clsMiConexion();
+		}
+
+		public clsGestionPersonas(string server, string name, string pass, string user)
+		{
+			miConexion = new clsMiConexion(server, name, user, pass);
+		}
+
+
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="persona"></param>
+		/// <returns></returns>
 		public bool insertarPersona(clsPersona persona)
 		{
 			var exito = false;

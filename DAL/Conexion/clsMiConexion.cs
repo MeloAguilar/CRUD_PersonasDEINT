@@ -41,8 +41,9 @@ namespace DAL.Conexion
             this.pass = "Mandaloriano69";
 
         }
-        //Con parámetros por si quisiera cambiar las conexiones
-        public clsMiConexion(String server, String database, String user, String pass)
+
+		//Con parámetros por si quisiera cambiar las conexiones
+		public clsMiConexion(String server, String database, String user, String pass)
         {
             this.server = server;
             this.dataBase = database;

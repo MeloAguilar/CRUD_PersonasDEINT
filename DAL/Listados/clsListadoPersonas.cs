@@ -11,9 +11,12 @@ namespace DAL.Listados
 {
 	public class clsListadoPersonas
 	{
-		clsMiConexion miConexion = new clsMiConexion();
+		clsMiConexion miConexion;
 
-
+		public clsListadoPersonas()
+		{
+			miConexion = new clsMiConexion();
+		}
 		/// <summary>
 		/// Método que se encarga de rellenar una lista de objetos tipo clsPersona
 		/// a partir de una llamada a la base de datos.
@@ -37,7 +40,7 @@ namespace DAL.Listados
 
 				while (miLector.Read())
 				{
-					lista.Add(new clsPersona(miLector.GetInt16(1), miLector.GetString(2), miLector.GetString(3), miLector.GetString(4), miLector.GetString(5), miLector.GetString(6), miLector.GetDateTime(7), miLector.GetInt16(8)));
+					lista.Add(new clsPersona(miLector.GetInt32(0), miLector.GetString(1), miLector.GetString(2), miLector.GetString(3), miLector.GetString(4), miLector.GetString(5), miLector.GetDateTime(6), miLector.GetInt32(7)));
 
 				}
 			}

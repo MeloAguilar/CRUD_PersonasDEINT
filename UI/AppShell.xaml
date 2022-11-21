@@ -4,28 +4,28 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:UI.Views"
-    Shell.FlyoutBehavior="Disabled"
-    >
+    Shell.FlyoutBehavior="Disabled">
 
 
-    
+
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
         <ShellContent
-            FlyoutItemIsVisible="False"
-            ContentTemplate="{DataTemplate local:InicioPage}"
-                 />
-        
-        <ShellContent
-        Title="Personas"
+            Title="Personas"
+            Icon="user_icon.png"
             FlyoutItemIsVisible="true"
-        ContentTemplate="{DataTemplate local:ListadoPersonasPage}"
+            ContentTemplate="{DataTemplate local:ListadoPersonasPage}"
         />
-    <ShellContent
-        Title="Departamentos"
-        FlyoutItemIsVisible="true"
-        ContentTemplate="{DataTemplate local:ListadoDepartamentosPage}"/>
+
+        <ShellContent
+            Title="Departamentos"
+            Icon="dept_icon.png"
+            FlyoutItemIsVisible="true"
+            ContentTemplate="{DataTemplate local:ListadoDepartamentosPage}"
+        />
+        
     </FlyoutItem>
-  
+
 
 
 </Shell>

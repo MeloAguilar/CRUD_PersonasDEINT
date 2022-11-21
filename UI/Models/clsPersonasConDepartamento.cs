@@ -24,5 +24,9 @@ namespace UI.Models
 			NombreDepartamento = nombreDepartamento;
 
 		}
+
+		public clsPersonasConDepartamento()
+		{
+		}
 	}
 }
