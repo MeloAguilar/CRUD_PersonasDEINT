@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UI.Models;
 using UI.ViewModels.Utilities;
 
 namespace UI.ViewModels
@@ -12,7 +13,7 @@ namespace UI.ViewModels
 	public class clsVMListadoPersonas
 	{
 
-		private ObservableCollection<clsPersona> personas;
+		private ObservableCollection<clsPersonasConDepartamento> personas;
 
 		private clsPersona personaSeleccionada;
 
@@ -24,7 +25,7 @@ namespace UI.ViewModels
 
 
 
-		public ObservableCollection<clsPersona> Personas { get { return personas; } set { personas = value; } }
+		public ObservableCollection<clsPersonasConDepartamento> Personas { get { return personas; } set { personas = value; } }
 		
 		public clsPersona PersonaSeleccionada { get { return personaSeleccionada; } set { personaSeleccionada = value;  } }
 
