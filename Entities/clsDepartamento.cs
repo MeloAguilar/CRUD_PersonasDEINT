@@ -1,6 +1,6 @@
 ﻿namespace Entities
 {
-    public class clsDepartamentos
+    public class clsDepartamento
     {
         #region Atributos
         private int id;
@@ -13,8 +13,8 @@
         #endregion
 
         #region Constructores
-        public clsDepartamentos() { }
-        public clsDepartamentos(int id, string nombre)
+        public clsDepartamento() { }
+        public clsDepartamento(int id, string nombre)
         {
             this.id = id;
             this.nombre = nombre;

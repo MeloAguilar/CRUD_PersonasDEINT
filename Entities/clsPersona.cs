@@ -17,6 +17,7 @@
         public int Id { get { return id; } }
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public string Apellidos { get { return apellidos; } set { apellidos = value; } }
+        public string NombreCompleto => $"{Nombre} {Apellidos}";
         public string Telefono { get { return telefono; } set { telefono = value; } }
         public string Direccion { get { return direccion; } set { direccion = value; } }
         public string Foto { get { return foto; } set { foto = value; } }

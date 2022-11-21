@@ -3,12 +3,29 @@
     x:Class="UI.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:UI"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:local="clr-namespace:UI.Views"
+    Shell.FlyoutBehavior="Disabled"
+    >
 
+
+    
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            FlyoutItemIsVisible="False"
+            ContentTemplate="{DataTemplate local:InicioPage}"
+                 />
+        
+        <ShellContent
+        Title="Personas"
+            FlyoutItemIsVisible="true"
+        ContentTemplate="{DataTemplate local:ListadoPersonasPage}"
+        />
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Departamentos"
+        FlyoutItemIsVisible="true"
+        ContentTemplate="{DataTemplate local:ListadoDepartamentosPage}"/>
+    </FlyoutItem>
+  
+
 
 </Shell>
