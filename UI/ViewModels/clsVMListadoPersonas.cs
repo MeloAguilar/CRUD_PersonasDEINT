@@ -125,7 +125,7 @@ namespace UI.ViewModels
 		/// <exception cref="NotImplementedException"></exception>
 		private bool DeleteCommand_CanExecute()
 		{
-			throw new NotImplementedException();
+			return false;
 		}
 
 		/// <summary>
